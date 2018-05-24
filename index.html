@@ -8,6 +8,8 @@
     <title>Vaughn Marques Bio</title>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+        crossorigin="anonymous">
 </head>
 
 <body>
@@ -15,9 +17,17 @@
         <div class="container">
             <a href="index.html" id="logo">Vaughn Marques</a>
             <nav>
-                <a href="index.html">About</a>
-                <a href="portfolio.html">Portfolio</a>
-                <a href="contact.html">Contact</a>
+                <ul class="nav justify-content-around">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
 
             </nav>
         </div>
@@ -51,7 +61,7 @@
     </div>
 
     <footer>
-        <div class="container">        
+        <div class="container">
             &#169;Copyright 2018 Vaughn Marques
         </div>
     </footer>
