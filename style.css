@@ -88,8 +88,8 @@ nav a:first-child{
 
 .main-section{
     background: #fff;
-    padding: 30px;
-    margin: 0 0 40px 0;
+    padding: 16px;
+    margin:  -18px 0 40px 0;
     width: 100%;
     max-width: 650;
     float: left;
@@ -166,4 +166,13 @@ textarea{
 
 .btn{
     background-image: url(what-the-hex-dark.png);
+}
+
+.fab{
+    color: black;
+}
+
+.card-img-top{
+    height: 150px;
+    width: 125px;
 }
